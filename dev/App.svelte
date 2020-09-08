@@ -220,7 +220,7 @@
   <div class="row">
     <div class="col">
       <div class="swipe-holder">
-        <Swipe is_vertical={true}>
+        <Swipe vertical={true} >
           {#each images as image}
             <SwipeItem>
               <img class="img-fluid" src={image} alt="" >

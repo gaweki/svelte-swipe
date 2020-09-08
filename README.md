@@ -11,7 +11,7 @@ Swipable items wrapper component for Svelte :fire: :boom: (zero dependencies - 3
 ## Installation
 
 ```bash
-npm i svelte-swipe
+npm i -D svelte-swipe
 ```
 
 ## Usage
@@ -67,7 +67,7 @@ npm i svelte-swipe
 ```html
 
 <div class="swipe-holder">
-  <Swipe is_vertical={true}>
+  <Swipe vertical={true}>
     <SwipeItem>
       ...
     </SwipeItem>
@@ -148,7 +148,7 @@ npm i svelte-swipe
 
 | Name | Type | Description | Required | Default |
 | --- | --- | --- | --- | --- |
-| `is_vertical` | `Boolean` | allow swipe items vertically | No | `false` |
+| `vertical` | `Boolean` | allow swipe items vertically | No | `false` |
 | `autoplay` | `Boolean` | Play items as slide | No | `false` |
 | `showIndicators` | `Boolean` | appears clickable circle indicators bottom center of item | No | `false` |
 | `transitionDuration` | `Number` | staying duration of per slide/swipe item | No | `200` *ms |
